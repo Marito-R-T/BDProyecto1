@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48F07737-5711-D50E-876A-86185E303022" name="ExploracionCabeza">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 09:04:46 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dato_encontrado" id="A47B875C-658A-E27F-40DE-F0C19FCADC90">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 09:05:34 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exploracion_fisica" id="33EAF4FC-1960-E9E4-63F5-8FF3BCF85F2B">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 09:05:53 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cirugia" id="8D8B0C0F-5919-3B71-CD02-6C2C7A7ACD03">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 09:07:02 UTC</createdTime>
+<generatorID>3196017C-FC37-A515-3DBC-A6F6B9F7BBB6</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A7644B9-7F2B-6E2D-614D-A49ABEFCCF73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEF03CC0-81A7-3F9E-4F8F-956F8B30930F" name="ExploracionCabeza PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 09:05:51 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A47B875C-658A-E27F-40DE-F0C19FCADC90</attributeRef>
+<attributeRef>33EAF4FC-1960-E9E4-63F5-8FF3BCF85F2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

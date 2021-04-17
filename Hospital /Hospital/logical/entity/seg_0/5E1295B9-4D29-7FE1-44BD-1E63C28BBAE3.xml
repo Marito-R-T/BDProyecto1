@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E1295B9-4D29-7FE1-44BD-1E63C28BBAE3" name="MedicoCirugia">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:41:17 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="medico" id="7CAE25E7-87A8-9416-FFA8-A701902F529F">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:41:30 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="7838297F-755B-02C4-70B7-2E1C354925B3">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:41:54 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="CB4DDD0D-0BEF-D4D3-17E4-227C9AF42795">
+<createdBy>marito</createdBy>
+<createdTime>2021-04-15 21:16:56 UTC</createdTime>
+<generatorID>04C774BD-D20A-D271-28F2-FD98A08511A5</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>45147557-B737-2E11-07B9-223B7760E619</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF38DCC7-2F3B-6017-2FFD-DC222671ACDC" name="MedicoCirugia PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:41:52 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CAE25E7-87A8-9416-FFA8-A701902F529F</attributeRef>
+<attributeRef>7838297F-755B-02C4-70B7-2E1C354925B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

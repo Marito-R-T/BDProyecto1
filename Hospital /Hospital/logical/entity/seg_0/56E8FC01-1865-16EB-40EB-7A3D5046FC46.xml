@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56E8FC01-1865-16EB-40EB-7A3D5046FC46" name="Prescripcion">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:40:51 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="consulta" id="A1AE9EA2-81C5-E83C-95B4-6DC0F0011584">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:40:58 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medicamento" id="80C39461-6545-A4DE-A7F5-ECB5631BDF58">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:41:11 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosis" id="B3A84FE0-3FF0-74CB-7F17-2CA43A038130">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:41:32 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="31C9AE2E-7AC5-1435-CDD2-3D5F925F55C8">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:42:01 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_total" id="53C6B3E6-96FE-B3F0-C424-F1E7494A9A36">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:42:37 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cita" id="70A0D54C-2D05-DE63-B3E3-444C73965EBE">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:43:15 UTC</createdTime>
+<generatorID>25B34A93-164B-3A07-7E03-313CBCA8E6BA</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<referedAttribute>589E225E-F1D2-8329-7D10-438DA089E2AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="580F62FD-18E9-FD09-CB36-DCE48833E83D">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:44:01 UTC</createdTime>
+<generatorID>81D5E60F-83AE-04C3-4F24-6CF5CFC7016A</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<referedAttribute>58617DD5-FCAD-B91B-3C57-B787A62C2336</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8690427D-1AD7-F9FF-9C90-831C3411E765" name="Prescripcion PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 05:41:04 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1AE9EA2-81C5-E83C-95B4-6DC0F0011584</attributeRef>
+<attributeRef>80C39461-6545-A4DE-A7F5-ECB5631BDF58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

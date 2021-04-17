@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1D17660-79A3-543F-CBF7-D90AD1E2B74C" name="ProcedimientoDiagnostico">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:12:40 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="diagnostico" id="70AEA936-79A7-D876-2B41-3BEC6B3E26E8">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:14:39 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paciente_emergencia" id="760796AB-B7C5-3B6C-3F5A-4D1B7E5C3000">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:14:45 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="procedimiento" id="F29C87FD-6C75-49BF-6159-04DE40EF03D9">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:15:38 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="BCCE90AE-C701-276E-9AEC-856064D4248B">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:16:12 UTC</createdTime>
+<generatorID>E9128822-6EAC-1D73-A3A2-7F3CCD4C03F0</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4140CB34-5244-9266-A817-AF8BAB9787B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2C242B2-D995-A177-9049-244BAA485CFE" name="ProcedimientoDiagnostico PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 07:15:12 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>760796AB-B7C5-3B6C-3F5A-4D1B7E5C3000</attributeRef>
+<attributeRef>70AEA936-79A7-D876-2B41-3BEC6B3E26E8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06B68DD2-353B-3233-2AB2-07CDF062824B" name="AsignacionMedico">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:47:59 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="medico" id="C52FE521-70DC-6D1C-2135-A4D18ADC68BE">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:48:06 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cirugia" id="B4302138-B4C0-EAAA-6494-35563BABE029">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:48:16 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medico1" id="42D9791C-D08C-9D6C-7EB1-2F0E93F6CCEC">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:48:51 UTC</createdTime>
+<generatorID>7CCD4335-A7EA-B34E-C7EA-5571236A3E19</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7CAE25E7-87A8-9416-FFA8-A701902F529F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="E1A38C06-6906-0558-E083-0B555E016090">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:48:51 UTC</createdTime>
+<generatorID>7CCD4335-A7EA-B34E-C7EA-5571236A3E19</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7838297F-755B-02C4-70B7-2E1C354925B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="D932D9FC-7BAF-CE6E-2E50-527C7E44FD4A">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:49:14 UTC</createdTime>
+<generatorID>665B99C2-CD5F-5277-B049-1AD10C98CFB7</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BCFB449E-FA8A-3D4C-DBDE-5F21E5FE2B2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_cirugia" id="2E622468-4138-5A07-7613-7BE3FCDD7853">
+<createdBy>marito</createdBy>
+<createdTime>2021-04-15 21:17:53 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CDF6E61-CC64-1373-33ED-2E5B1F9AB8B8" name="AsignacionMedico PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-13 08:48:11 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4302138-B4C0-EAAA-6494-35563BABE029</attributeRef>
+<attributeRef>C52FE521-70DC-6D1C-2135-A4D18ADC68BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

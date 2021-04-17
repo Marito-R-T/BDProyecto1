@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1D783DB-25E3-75CB-C707-E4628D39531D" name="Encargado">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:40:20 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="persona" id="61531FA2-79AE-6726-D7DA-48F340BFADB3">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:40:33 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paciente" id="DBB1D492-295A-B1FE-E65B-5471260BFC7B">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:40:38 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentesco" id="C48EE441-2576-A233-4F42-B9035ECE3085">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:40:41 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpi" id="6D3962E4-E638-B8E9-6D78-32C0F9E1D170">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 17:00:48 UTC</createdTime>
+<generatorID>5C1FC8BC-4C59-0E95-EB78-41932D4D6977</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<referedAttribute>925A5199-0818-4EB2-306F-3641C1362BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_expediente" id="3643FF68-EFAF-1034-C09F-1A1C0CB9FBEC">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:58:40 UTC</createdTime>
+<generatorID>AA20881C-D59C-2502-134E-C1EFF8268807</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<referedAttribute>2E50DE48-4E37-A919-970D-625AB3B325EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29F1A81F-8F6E-B8AD-6909-801841BD4F80" name="Encargado PK">
+<createdBy>mario</createdBy>
+<createdTime>2021-04-10 16:40:48 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61531FA2-79AE-6726-D7DA-48F340BFADB3</attributeRef>
+<attributeRef>DBB1D492-295A-B1FE-E65B-5471260BFC7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
