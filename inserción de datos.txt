@@ -441,3 +441,21 @@ INSERT INTO "FichaEgreso" VALUES
 (3, 'Mejoramiento de la persona', 'nivelación de la oxigenacion', 23, 2, 2021, 18, 1, 1, true, 'mejora de salud', 6, false),
 (4, 'Mejoramiento de la persona', 'mejoramiento del dolor', 23, 2, 2021, 12, 1, 1, true, 'mejora de salud', 1, true),
 (5, 'Mejoramiento de la persona', 'niveles de signos mejoraron', 22, 2, 2021, 6, 3, 1, true, 'mejora de salud', 4, true);
+
+INSERT INTO "ChequeoPreanestesico" VALUES
+(1, 'peligroso', 123456789, 'firmamedico1', 'el plan de la anestecia en este lugar', 987654321),
+(2, 'seguro', 987654321, 'firmamedico2', 'el plan de la anestecia en este lugar', 123456789);
+
+INSERT INTO "ExploracionCavidad" VALUES
+('datocavidad1', 1, 'boca'),
+('datocavidad2', 1, 'boca'),
+('datocavidad3', 1, 'ano'),
+('datocavidad4', 1, 'nariz'),
+('datocavidad5', 2, 'boca');
+
+INSERT INTO "Instrumento" VALUES
+(1, 'nombreinstrumento1', 'descripcion del instrumento', 1, 1),
+(1, 'nombreinstrumento2', 'descripcion del instrumento', 1, 2),
+(1, 'nombreinstrumento3', 'descripcion del instrumento', 2, 1),
+(1, 'nombreinstrumento4', 'descripcion del instrumento', 2, 1),
+(2, 'nombreinstrumento1', 'descripcion del instrumento', 1, 1);
