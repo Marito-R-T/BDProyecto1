@@ -106,6 +106,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="A560473D-ECEC-646F-DC9F-8CC5F3F81B15">
+<createdBy>marito</createdBy>
+<createdTime>2021-04-18 23:59:00 UTC</createdTime>
+<generatorID>EA517AFA-996A-6C3E-B71B-8E7F82BFD94B</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>80A04F5A-AA56-8320-72FD-51AB70032064</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="78F85D5A-6157-3E61-B719-E066CAD211D2" name="Instrumento PK">
