@@ -1,3 +1,9 @@
+INSERT INTO "TipoUnidad" VALUES
+(1, 'Hospitalización'),
+(2, 'Consulta'),
+(3, 'Emergencia'),
+(4, 'Cirugia');
+
 INSERT INTO "Medicamento" VALUES 
 (1, 'medicamento1', 50),
 (2, 'medicamento2', 45),
@@ -160,6 +166,14 @@ INSERT INTO "Consulta" VALUES
 (5, 500, 15, 2, 2020, false, NULL, 'nota de la quinta consulta', 'datos interes', 1),
 (6, 500, 15, 2, 2020, false, NULL, 'nota de la sexta consulta', 'datos interes', 4),
 (7, 500, 15, 2, 2020, true, NULL, 'nota de la septima consulta', 'datos interes', 5);
+
+INSERT INTO "Prescripcion" VALUES
+(1, 1, 'en tableta 500 ml', '1 semana', 7),
+(2, 1, 'en tableta 500 ml', '2 semana', 14),
+(2, 3, 'una inyeccion de 1000 ml', '3 días', 3),
+(3, 4, 'en tableta 250 ml', '1 semana', 14),
+(3, 3, 'una inyeccion de 1000 ml', '1 día', 3);
+
 
 INSERT INTO "FuncionInstrumento" (id, nombre) VALUES 
 (1, 'corte'),
