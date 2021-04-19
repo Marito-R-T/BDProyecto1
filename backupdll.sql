@@ -2101,6 +2101,11 @@ COPY public."Preoperatoria" (cirugia, padecimiento_actual, exploracion_general, 
 --
 
 COPY public."Prescripcion" (consulta, medicamento, dosis, duracion, cantidad_total) FROM stdin;
+1	1	en tableta 500 ml	1 semana	7
+2	1	en tableta 500 ml	2 semana	14
+2	3	una inyeccion de 1000 ml	3 días	3
+3	4	en tableta 250 ml	1 semana	14
+3	3	una inyeccion de 1000 ml	1 día	3
 \.
 
 
