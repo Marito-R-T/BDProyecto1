@@ -149,18 +149,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="camilla_asignado" id="EE90766F-1495-AB83-7033-3CA0CEA28186">
-<createdBy>marito</createdBy>
-<createdTime>2021-04-13 23:03:56 UTC</createdTime>
-<ownerDesignName>Hospital</ownerDesignName>
-<engineerTo>
-<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="diagnostico_presuntivo" id="DCFA3BCD-235A-9ED9-A617-773763A7D714">
 <createdBy>marito</createdBy>
 <createdTime>2021-04-13 23:04:04 UTC</createdTime>
@@ -323,6 +311,51 @@
 <item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
 </engineerTo>
 <referedAttribute>BC69AA6C-7975-0AC7-34BC-3ACC7AD0E9C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="persona1" id="619197F7-A1D2-0C9F-E9E9-6515A93AEB3F">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 18:53:18 UTC</createdTime>
+<generatorID>9816A73C-A4D2-DEA0-85F6-394F7DB427C2</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F449D213-BB0D-A2F6-06BF-BB9600735055</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="D80325B9-F28B-B8C9-EF78-933F777621E6">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 18:53:18 UTC</createdTime>
+<generatorID>9816A73C-A4D2-DEA0-85F6-394F7DB427C2</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>86831F68-BDD0-C2C1-B8F1-CA672731AADD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospital1" id="E66F58EF-609D-E700-496D-53B9850D8ED3">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 18:53:18 UTC</createdTime>
+<generatorID>9816A73C-A4D2-DEA0-85F6-394F7DB427C2</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DF752285-BACF-90B7-FEBF-AC5D12ECFE83</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

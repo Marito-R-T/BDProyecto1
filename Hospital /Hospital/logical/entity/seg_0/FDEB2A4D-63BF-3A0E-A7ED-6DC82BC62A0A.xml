@@ -154,6 +154,58 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="camilla_asignado" id="D8EA374D-CCC1-FD68-646B-0159EB88C843">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 19:26:33 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="camilla_disponible_entrada" id="C166153B-F73D-409C-E912-F68AFC1EA59B">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 19:28:41 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_pago" id="A5686919-178E-BA43-253F-96288D1088C6">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-16 23:08:04 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C1AE8DF9-9329-FB13-F50B-0362FC72CC2E">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-16 23:10:10 UTC</createdTime>
+<generatorID>7BF1DD33-18D2-0A66-B9B4-F9F375842BBB</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ECBD51B1-8B97-9B05-E2BC-2B808CE22EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C704D658-D2AF-7A47-5B37-40CFFE8B93F4" name="PacienteEmergencia PK">

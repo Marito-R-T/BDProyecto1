@@ -153,6 +153,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo_pago" id="A2497763-E1F3-8973-D0D1-ECEF809A1A6A">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-16 23:08:27 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="3211BF81-7B2B-2433-85B7-02F3D71483A4">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-16 23:09:43 UTC</createdTime>
+<generatorID>6D01C3DA-D78F-C16D-0E27-3380A8D669EE</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ECBD51B1-8B97-9B05-E2BC-2B808CE22EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cuotas" id="E784722D-4D41-AC30-00DB-82539962A330">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-17 18:22:16 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A741E680-C3AC-AAD6-66DE-5D1E818E05A9" name="Consulta PK">

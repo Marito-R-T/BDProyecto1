@@ -221,6 +221,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="hospital" id="5DA8FB57-A6A1-635E-E6D0-83A135B47FA2">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-17 17:56:29 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="7A705775-BCC4-9434-9C62-7C20C35022E3">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-17 17:56:58 UTC</createdTime>
+<generatorID>D0542448-28EB-BADC-E9BA-0B4E1BB2EADE</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E48C14A1-2C03-6DBF-B520-360666D351D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="61A84D29-AF71-4F4C-4DD3-9B3248C592EC" name="FichaCita PK">

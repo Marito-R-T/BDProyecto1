@@ -89,6 +89,33 @@
 <logicalDatatype>LOGDT018</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo_pago" id="A48B22D3-0DF2-0EB5-7066-198350AF5735">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-15 19:03:21 UTC</createdTime>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="CEF37CF5-0F65-CA8C-F4E2-331C84F2AA90">
+<createdBy>marito</createdBy>
+<createdTime>2021-05-16 23:10:47 UTC</createdTime>
+<generatorID>70E5037B-FAAE-03B1-C17C-69E559A4D8E2</generatorID>
+<ownerDesignName>Hospital</ownerDesignName>
+<engineerTo>
+<item key="01B53C2B-8648-5538-36BC-E1D90F267C67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ECBD51B1-8B97-9B05-E2BC-2B808CE22EE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3C7A8FB5-503E-CE4F-9239-556E00A97717" name="HospitalizacionPaciente PK">

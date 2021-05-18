@@ -52,7 +52,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>9</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id" id="3B139B7B-CD93-0EA7-6116-84F22F3CA454">
 <createdBy>mario</createdBy>
